@@ -1,0 +1,141 @@
+.fonti{font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+}
+.container {
+  display: flex;
+  width: 1920px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+.container img {
+  position: absolute;
+  width: 1920px;
+  height: 400px;
+  border-radius: 50%;
+  animation: move 14s linear infinite;
+}
+
+@keyframes move {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(1550px); }
+  100% { transform: translateX(0); }
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    max-width: 400px;
+}
+#letreiro {
+  width: 100%;
+  height: 110px;
+  background-color: rgb(0, 0, 0);
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .button1 {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+  }
+  
+  .button1:hover {
+    background-color: #ff0000;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: rgb(0, 0, 0); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+  }
+  
+  .button2:hover {
+    background-color: #1900ff;
+    color: white;}
+    
+    .button3 {
+        background-color: rgb(0, 0, 0); 
+        color: rgb(255, 255, 255); 
+        border: 2px solid #ffffff;
+      }
+      
+      .button3:hover {
+        background-color: #00ff15;
+        color: white;}
+
+        .button4 {
+            background-color: rgb(0, 0, 0); 
+            color: rgb(255, 255, 255); 
+            border: 2px solid #ffffff;
+          }
+          
+          .button4:hover {
+            background-color: #ff00dd;
+            color: white;}
+
+            .button5 {
+                background-color: rgb(0, 0, 0); 
+                color: rgb(255, 255, 255); 
+                border: 2px solid #ffffff;
+              }
+              
+              .button5:hover {
+                background-color: #5c5c5c;
+                color: white;}
+
+                .button6 {
+                    background-color: rgb(0, 0, 0); 
+                    color: rgb(255, 255, 255); 
+                    border: 2px solid #ffffff;
+                  }
+                  
+                  .button6:hover {
+                    background-color: #5c5c5c;
+                    color: white;}
+
+                    .button7 {
+                        background-color: rgb(0, 0, 0); 
+                        color: rgb(255, 255, 255); 
+                        border: 2px solid #ffffff;
+                      }
+                      
+                      .button7:hover {
+                        background-color: #5c5c5c;
+                        color: white;}
+
+                        .button8 {
+                            background-color: rgb(0, 0, 0); 
+                            color: rgb(255, 255, 255); 
+                            border: 2px solid #ffffff;
+                          }
+                          
+                          .button8:hover {
+                            background-color: #5c5c5c;
+                            color: white;}
